@@ -1,41 +1,4 @@
 /*===================== TABLE OF CONTENT =======================
-1. Fonts
-2. General Styling
-3. Cross Browser Compatibility
-4. Header
-5. Header Style 2
-6. Dropdown
-7. Responsive Header
-8. Slider
-9. Most Urgent Cause
-10. About Daan
-11. Daan Services
-12. Daan Counters
-13. Recent Causes
-14. Daan Volunteers
-15. Daan Events
-16. Newsletter
-17. Daan Gallery
-18. Map
-19. Daan Contact
-20. Simple Cause
-21. Support Ways
-22. Upcoming Event
-23. FAQ's
-24. Daan Testimonials
-25. Page Top
-26. Pagination
-27. Events Page
-28. Daan Blog Page
-29. Single Page
-30. Event Detail
-31. Cause Detail
-32. 404 Page
-33. Sidebar
-34. Recent Post Widget
-35. Footer
-36. OWL CAROUSEL STYLING
-=============================================================*/
 
 /*=============== Fonts ===================*/
 /*@import url('https://fonts.googleapis.com/css?family=Droid+Sans:400,700');*/
@@ -55,6 +18,14 @@
   height: 400px !important;
 }
 
+.eos-banner-h5 {
+    color: #fff;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
 .option-content {
     padding: 10px 30px;
 }
@@ -68,6 +39,11 @@
   padding-left: 70px;
 }
 
+img.daan-post-img {
+    object-fit: cover;
+    object-position: center;
+}
+
 img.img-responsive.barcode {
     width: 20em;
 }
@@ -78,6 +54,7 @@ img.img-responsive.barcode {
 
 .col-md-4.tweets-div {
     margin-top: 30px !important;
+    z-index: -400000000 !important;
 }
 
 h3.eos-banner-h {
@@ -87,16 +64,15 @@ h3.eos-banner-h {
 section.eos-banner {
     text-align: center;
     padding: 60px;
-    background-image: url('../images/bg.png');
+    background: #0e3f1f;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 img.img-responsive.eos-banner-logo {
-    /* padding-left: 73px; */
     width: 8em;
-    margin-left: 120px;
+   margin-left: 185px;
 }
 
 .eos-banner-p{
@@ -561,7 +537,7 @@ h5{font-size:20px}
 h6{font-size:16px}
 p{
     color:#666666;
-    font-size:16px;
+    font-size:15px;
     line-height:27px;
     margin-bottom:25px;
 }
@@ -1133,6 +1109,9 @@ header.style2.stick:before{background:none}
 header.style2.sticky .menubar nav > ul > li {
     margin: -10px 0;
     padding: 9px 0;
+}
+img#novacrypto{
+    margin-top: 30px;
 }
 
 /*=============== Responsive Header ===================*/

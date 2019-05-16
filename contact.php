@@ -39,8 +39,8 @@ if(get_magic_quotes_gpc()) {
 // Enter the email address that you want to emails to be sent to.
 // Example $address = "joe.doe@yourdomain.com";
 
-//$address = "example@themeforest.net";
-$address = "info@humanelove.org";
+$address = "profchydon@gmail.com";
+// $address = "info@humanelove.org";
 
 
 // Configuration option.
@@ -55,7 +55,7 @@ $e_subject = 'You\'ve been contacted by ' . $name . '.';
 // You can change this if you feel that you need to.
 // Developers, you may wish to add more fields to the form, in which case you must be sure to add them here.
 
-$e_body = "You have been contacted by $name with regards to $subject, their additional message is as follows." . PHP_EOL . PHP_EOL;
+$e_body = "You have been contacted by $name from humanelove.org with regards to $subject, their additional message is as follows." . PHP_EOL . PHP_EOL;
 $e_content = "\"$comments\"" . PHP_EOL . PHP_EOL;
 $e_reply = "You can contact $name via email, $email";
 
