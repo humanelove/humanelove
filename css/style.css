@@ -59,6 +59,7 @@ img.img-responsive.barcode {
 
 h3.eos-banner-h {
     color: #fff;
+    margin-bottom: 70px;
 }
 
 section.eos-banner {
@@ -72,11 +73,18 @@ section.eos-banner {
 
 img.img-responsive.eos-banner-logo {
     width: 8em;
-   margin-left: 185px;
+   margin-left: 130px;
+}
+
+#khan {
+    height: 175px;
+    object-fit: cover;
+    object-position: center;
 }
 
 .eos-banner-p{
   color: #fff;
+  padding: 0px 20px;
 }
 
 img.img-responsive.eos-logo {
