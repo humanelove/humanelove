@@ -82,6 +82,12 @@ img.img-responsive.eos-banner-logo {
     object-position: center;
 }
 
+#david {
+    height: 175px;
+    object-fit: cover;
+    object-position: center;
+}
+
 .eos-banner-p{
   color: #fff;
   padding: 0px 20px;
@@ -4854,6 +4860,24 @@ li.select2-results__option:before{display:none}
       /* background: #0a3015 !important; */
     }
 
+    #khan {
+        height: 230px;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 450px;
+        margin-bottom: 8px;
+        width: 230px;
+    }
+
+    #david {
+        height: 230px;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 450px;
+        margin-bottom: 8px;
+        width: 230px;
+    }
+
     #slide-1-div {
         padding-left: 15px !important;
         line-height: 30px !important;
@@ -4902,6 +4926,7 @@ li.select2-results__option:before{display:none}
   .eos-banner-p {
     color: #fff;
     font-size: 12px;
+    padding: 0px;
   }
 
   h3.eos-banner-h {
